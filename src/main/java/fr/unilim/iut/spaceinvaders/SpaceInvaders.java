@@ -68,6 +68,11 @@ public class SpaceInvaders {
 		return recupererEspaceJeuDansChaineASCII();
 	}
 
+	public void deplacerVaisseauVersLaDroite() {
+		 if (vaisseau.abscisse()< (longueur-1)) vaisseau.seDeplacerVersLaDroite();
+		
+	}
+
 	
 
 	
