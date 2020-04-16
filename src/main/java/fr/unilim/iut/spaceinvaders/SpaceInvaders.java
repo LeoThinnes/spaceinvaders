@@ -73,6 +73,11 @@ public class SpaceInvaders {
 		
 	}
 
+	public void deplacerVaisseauVersLaGauche() {
+		if (vaisseau.abscisse()> 0) vaisseau.seDeplacerVersLaGauche();
+		
+	}
+
 	
 
 	
