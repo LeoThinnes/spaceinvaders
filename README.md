@@ -15,7 +15,7 @@ Space Invaders est un shoot them up fixe en deux dimensions. Le joueur contrôle
 
 Lors de cette semaine j'ai créer les bases pour ce tp. C'est à dire ce github ainsi que les premices du programme space invaders. Plus précisement j'ai commencé la *fonctionnalité n°1 : Déplacer le vaisseau dans l'espace de jeu* en faisant le *storie 1 : Créer un espace de jeu*.
 
----------------------------------
+<hr>
 
 ## Semaine 2 : du 6 au 12 avril <a id="semaine2"></a>
 
@@ -27,7 +27,7 @@ Durant le tp de cette semaine j'ai continué de travailler sur la *fonctionnalit
 ### Nuage de mots Sprint 2 :
 ![](images/NuageSprint2.JPG)
 
------------------------
+<hr>
 
 ## Semaine 3 : du 13 au 19 avril <a id="semaine3"></a>
 Pendant cette sceance de tp j'ai terminé la *fonctionnalité n°1 : Déplacer le vaisseau dans l'espace de jeu* en réalisant la *storie 3 : Déplacer le vaisseau vers la droite dans l'espace de jeu* et la *storie 4 : Déplacer le vaisseau vers la gauche dans l'espace de jeu*.
@@ -39,7 +39,7 @@ Suite à cela je possède le diagramme de classe et nuage de mots suivants :
 ### Nuage de mots Fonctionnalité 1 finie :
 ![](images/NuageFinFct1.JPG)
 
--------------------------
+<hr>
 
 ## Glossaire <a id="glossaire"></a>
 
