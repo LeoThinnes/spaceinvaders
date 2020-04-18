@@ -29,14 +29,14 @@ Durant le tp de cette semaine j'ai continué de travailler sur la *fonctionnalit
 
 -----------------------
 
-## Semaine 3 : du 13 au 19 avril <a id="semaine2"></a>
+## Semaine 3 : du 13 au 19 avril <a id="semaine3"></a>
 Pendant cette sceance de tp j'ai terminé la *fonctionnalité n°1 : Déplacer le vaisseau dans l'espace de jeu* en réalisant la *storie 3 : Déplacer le vaisseau vers la droite dans l'espace de jeu* et la *storie 4 : Déplacer le vaisseau vers la gauche dans l'espace de jeu*.
 Suite à cela je possède le diagramme de classe et nuage de mots suivants : 
 
 ### Diagramme de classe Fonctionnalité 1 finie :
 ![](images/diagrammeFinFct1.JPG)
 
-### Nuage de mots Sprint 2 :
+### Nuage de mots Fonctionnalité 1 finie :
 ![](images/NuageFinFct1.JPG)
 
 -------------------------
