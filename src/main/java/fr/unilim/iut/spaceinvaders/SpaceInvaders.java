@@ -3,52 +3,39 @@ package fr.unilim.iut.spaceinvaders;
 import fr.unilim.iut.spaceinvaders.utils.HorsEspaceJeuException;
 
 public class SpaceInvaders {
-	
+
 	private static final char MARQUE_FIN_LIGNE = '\n';
 	private static final char MARQUE_VIDE = '.';
 	private static final char MARQUE_VAISSEAU = 'V';
 	int longueur;
-    int hauteur;
-    Vaisseau vaisseau;
+	int hauteur;
+	Vaisseau vaisseau;
 
-
-    public SpaceInvaders(int longueur, int hauteur) {
+	public SpaceInvaders(int longueur, int hauteur) {
 		super();
 		this.longueur = longueur;
 		this.hauteur = hauteur;
-		
+
 	}
-    
-    private boolean aUnVaisseauQuiOccupeLaPosition(int x, int y) {
+
+	private boolean aUnVaisseauQuiOccupeLaPosition(int x, int y) {
 		return this.aUnVaisseau() && vaisseau.occupeLaPosition(x, y);
 	}
 
-    
 	private boolean aUnVaisseau() {
-		return vaisseau !=null;
+		return vaisseau != null;
 	}
-	
-	
+
 	private boolean estDansEspaceJeu(int x, int y) {
 		return ((x >= 0) && (x < longueur)) && ((y >= 0) && (y < hauteur));
 	}
-	
 
-	public void positionnerUnNouveauVaisseau(int x, int y) {
-		if (  !estDansEspaceJeu(x, y) ) {
-			throw new HorsEspaceJeuException("La position du vaisseau est en dehors de l'espace jeu");
-		}
-		this.vaisseau = new Vaisseau (x,y);
-	}
-
-	
-	
 	private char recupererMarqueDeLaPosition(int x, int y) {
 		char marque;
 		if (this.aUnVaisseauQuiOccupeLaPosition(x, y))
-		      marque=MARQUE_VAISSEAU;
+			marque = MARQUE_VAISSEAU;
 		else
-		      marque=MARQUE_VIDE;
+			marque = MARQUE_VIDE;
 		return marque;
 	}
 
@@ -62,21 +49,24 @@ public class SpaceInvaders {
 		}
 		return espaceDeJeu.toString();
 	}
-	
-	
+
 	public void deplacerVaisseauVersLaDroite() {
-		 if (vaisseau.abscisse()< (longueur-1)) vaisseau.seDeplacerVersLaDroite();
-		
+		if (vaisseau.abscisseLaPlusADroite() < (longueur - 1))
+			vaisseau.seDeplacerVersLaDroite();
 	}
 
 	public void deplacerVaisseauVersLaGauche() {
-		if (vaisseau.abscisse()> 0) vaisseau.seDeplacerVersLaGauche();
-		
+		if (vaisseau.abscisseLaPlusAGauche() > 0)
+			vaisseau.seDeplacerVersLaGauche();
+
 	}
 
-	
+	public void positionnerUnNouveauVaisseau(int longueur, int hauteur, int x, int y) {
+		if (!estDansEspaceJeu(x, y))
+			throw new HorsEspaceJeuException("La position du vaisseau est en dehors de l'espace jeu");
 
-	
+		vaisseau = new Vaisseau(longueur, hauteur);
+		vaisseau.positionner(x, y);
+	}
 
-	
 }
