@@ -7,6 +7,7 @@ Space Invaders est un shoot them up fixe en deux dimensions. Le joueur contrôle
 * [Semaine 1](#semaine1)
 * [Semaine 2](#semaine2)
 * [Semaine 3](#semaine3)
+* [Semaine 4](#semaine4)
 * [Glossaire](#glossaire)
 
 
@@ -38,6 +39,15 @@ Suite à cela je possède le diagramme de classe et nuage de mots suivants :
 
 ### Nuage de mots Fonctionnalité 1 finie :
 ![](images/NuageFinFct1.JPG)
+
+<hr>
+
+## Semaine 4 : du 4 au 10 mai <a id="semaine4"></a>
+Pendant cette scéance de tp j'ai commencé la *fonctionnalité n°2 : Dimmensionner un nouveau vaisseau* en realisant *l'etape 1 : positionner un nouveau vaisseau avec une dimension donnée*.
+Apres cela nous disposons du diagramme de classe suivant : 
+
+### Diagramme de classe Etape 1 :
+![](images/diagrammeFct2Sp1.png)
 
 <hr>
 
