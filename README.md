@@ -8,6 +8,7 @@ Space Invaders est un shoot them up fixe en deux dimensions. Le joueur contrôle
 * [Semaine 2](#semaine2)
 * [Semaine 3](#semaine3)
 * [Semaine 4](#semaine4)
+* [Semaine 5](#semaine5)
 * [Glossaire](#glossaire)
 
 
@@ -48,6 +49,15 @@ Apres cela nous disposons du diagramme de classe suivant :
 
 ### Diagramme de classe Etape 1 :
 ![](images/diagrammeFct2Sp1.png)
+
+<hr>
+
+## Semaine 5 : du 11 au 17 mai <a id="semaine5"></a>
+Pendant cette sceance j'ai terminé la *fonctionnalité n°2 : Dimensionner un nouveau vaisseau* en faisant les étapes 2, 3 et 4.
+Avec cela nous avons le diagramme de classe suivant : 
+
+### Diagramme de classe fonctionnalité 2 terminée :
+![](images/diagrammeFinFct2.JPG)
 
 <hr>
 
