@@ -9,6 +9,7 @@ Space Invaders est un shoot them up fixe en deux dimensions. Le joueur contrôle
 * [Semaine 3](#semaine3)
 * [Semaine 4](#semaine4)
 * [Semaine 5](#semaine5)
+* [Semaine 6](#semaine6)
 * [Glossaire](#glossaire)
 
 
@@ -58,6 +59,14 @@ Avec cela nous avons le diagramme de classe suivant :
 
 ### Diagramme de classe fonctionnalité 2 terminée :
 ![](images/diagrammeFinFct2.JPG)
+
+<hr>
+
+## Semaine 6 : du 18 au 24 mai <a id="semaine6"></a>
+Pendant cette scéance j'ai mis en place le moteur graphique et fait la *fonctionnalité n°3 : Choisir la vitesse du vaisseau*. Suite à cela nous possédons le diagramme de classe ci-dessous : 
+
+### Diagramme de classe fonctionnalité 3 terminée :
+![](images/diagrammeFinFct3.png)
 
 <hr>
 
