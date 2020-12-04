@@ -1,6 +1,7 @@
 # spaceinvaders
 
-Space Invaders est un shoot them up fixe en deux dimensions. Le joueur contrôle un canon laser qu'il peut déplacer horizontalement, au bas de l'écran.
+Space Invaders est un shoot them up fixe en deux dimensions. Le joueur contrôle un canon laser qu'il peut déplacer horizontalement, au bas de l'écran. <br>
+Ce projet a été mené dans le but d'apprendre le developpement par les tests. Vous trouverez dans la suite de ce README une description de l'evolution de ce projet.
 
 
 ## Menu
